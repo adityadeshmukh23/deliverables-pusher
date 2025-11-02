@@ -1,0 +1,30 @@
+# Requirements for AI Agent Deliverables Pusher
+# Core dependencies
+
+gitpython>=3.1.40
+pydantic>=2.5.0
+requests>=2.31.0
+
+# LLM and ML dependencies
+transformers>=4.35.0
+accelerate>=0.24.0
+peft>=0.7.0
+
+# RAG and vector search
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+
+# Data handling
+datasets>=2.15.0
+pandas>=2.1.0
+
+# Testing
+pytest>=7.4.3
+pytest-cov>=4.1.0
+
+# UI (optional)
+streaml>=1.29.0
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
