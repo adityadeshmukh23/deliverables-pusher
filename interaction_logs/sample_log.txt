@@ -1,0 +1,10 @@
+# Sample Interaction Log
+# This directory will contain interaction logs from the AI agent
+
+[2025-11-03 04:00] USER: "I want to submit deliverables. Repo path: /home/aditya/project"
+[2025-11-03 04:00] PLANNER: "Check required files: report.pdf, code/, agent/, interaction_logs/..."
+[2025-11-03 04:01] EXECUTOR: "Missing: interaction_logs/ . Creating placeholder..."
+[2025-11-03 04:02] README_GENERATOR_PROMPT: "Create README with student info..."
+[2025-11-03 04:02] README_OUTPUT: "# AI Agent Prototype Submission\n\nStudent: ADITYA\n..."
+
+# Additional interaction logs will be added as the agent is used
