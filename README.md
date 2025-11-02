@@ -1,8 +1,8 @@
 # AI Agent Prototype - Deliverables Pusher
 
-**Student:** ADITYA  
-**University:** <Your University>  
-**Department:** <Your Department>  
+**Student:** Aditya Deshmukh
+**University:** IIT Kanpur  
+**Department:** Materials Science & Engineering
 
 ## Deliverables included
 - Source code of the prototype (`/agent`)
