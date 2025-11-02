@@ -27,4 +27,4 @@
    ```
 
 ## Contact
-ADITYA — [your.email@domain](mailto:your.email@domain)
+Aditya Deshmukh — adityad23@iitk.ac.in (mailto:your.email@domain)
