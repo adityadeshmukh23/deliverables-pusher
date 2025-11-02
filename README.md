@@ -1,7 +1,9 @@
 # AI Agent Prototype - Deliverables Pusher
 
 **Student:** Aditya Deshmukh
+
 **University:** IIT Kanpur  
+
 **Department:** Materials Science & Engineering
 
 ## Deliverables included
