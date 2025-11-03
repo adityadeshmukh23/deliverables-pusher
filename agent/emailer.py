@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
-emailr.py
-Create a local email draft file (email_draft.txt) that you can copy-paste into your mail client.
-This script intentionally does NOT send emails (avoids storing creds).
+emailter.py
+Creates a local email draft (email_draft.txt) that can be copy-pasted into Gmail/Outlook.
 """
 import os
 
@@ -45,17 +44,18 @@ def save_draft(path, email):
         f.write("To: " + ", ".join(email["to"]) + "\n")
         f.write("Subject: " + email["subject"] + "\n\n")
         f.write(email["body"])
-    print("Email draft saved at", path)
+    print("✅ Email draft saved at:", path)
 
 if __name__ == "__main__":
-    import argparse, os
+    import argparse
     ap = argparse.ArgumentParser()
     ap.add_argument("--repo_path", required=True)
-    ap.add_argument("--name", default="ADITYA")
+    ap.add_argument("--name", default="Aditya Deshmukh")
     ap.add_argument("--university", default="IIT Kanpur")
-    ap.add_argument("--department", default="MSE")
+    ap.add_argument("--department", default="Materials Science & Engineering")
     ap.add_argument("--repo_url", default="https://github.com/adityadeshmukh23/deliverables-pusher")
     args = ap.parse_args()
+
     draft_path = os.path.join(args.repo_path, "email_draft.txt")
     email = build_email(args.name, args.university, args.department, args.repo_url)
     save_draft(draft_path, email)
